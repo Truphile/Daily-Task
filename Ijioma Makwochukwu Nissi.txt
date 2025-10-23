@@ -1,0 +1,25 @@
+Ijioma Makwochukwu Nissi
+
+
+Jnit 5 testing framework in the java ecosystem allows developers to write and run effective tests for their java applications, ensuring that the code functions correctly and continues to work as expected when changes are made.
+
+@BeforeEach annotation is a feature of the Junit 5, which is vital for setting up test fixtures and improving test maintainability.
+
+Accessable from java 8 higher, maven or greddle
+
+It is used to mark a method that should execute or run before every test method in the class multiple
+it can be defined in a single  test class
+It helps in providing initialization or setting up common test fixtures required by the test methods.
+
+
+@AfterEach annotation 
+
+It indicates that the annotated method must be executed after every @Test, @RepeatedTest, @ParameterizedTest or @TestFActory in the same Test class
+It means whenever you run the test method @AfterEach method will be executed at least once after test method execution
+Method annotated by @AfterEach should be non static and it should be void return type
+
+
+Chapter 3 summary
+An instance variable is a variable that belongs to a specific instance (object) of a class. Each object created from a class will have its own unique copy of the instance variables defined in that class, The keyword public is an access modifier, Identifiers by convention all use CamelCase like our class names, method names and variable names and also the keywords "public" and "private" are access modifiers class containing the main method are called the driver class, Keyword new creates a new object of the specified class parentheses in combination with a class name represent a call to a constructor, which is similar to a method but is called implicitly by the new operator to initialize an object’s instance variables when the object is created, A primitive-type variable can hold exactly one value of its declared type at a time,Primitive-type instance variables are initialized by default, the empty parentheses following a method name indicate that the method does not require any parameters to perform its task, Classes often provide public methods to allow the class’s clients to set or get private instance variables.The javac command can compile multiple classes at once,The number of arguments in a method call must match the number of parameters in the method declaration’s parameter list, when declaring instance variables private is known as information hiding.
+
+
