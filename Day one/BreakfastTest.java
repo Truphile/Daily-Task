@@ -6,7 +6,7 @@ public class BreakfastTest {
 	public void testThatAWordIsCollected() {	
 		Breakfast breakfast = new Breakfast();			
 		String result = breakfast.getSentence("God is good.");		
-		assertEquals(result, "God is good.");				
+		assertEquals(result, "The lord is good");				
 
 	}
 
@@ -15,7 +15,7 @@ public class BreakfastTest {
 	public void testThatASentenceIsCollectedAndConvertedToUpperCase() {	
 		Breakfast breakfast = new Breakfast();			
 		String result = breakfast.convert("God is good.");		
-		assertEquals(result, "GOD IS GOOD.");				
+		assertEquals(result, "THE LORD IS GOOD.");				
 
 	}
 

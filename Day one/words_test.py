@@ -3,8 +3,8 @@ from words import *
 
 class BreakfastTest(unittest.TestCase):
 	def test_that_get_words_exist(self):
-		actual = get_words("semicolon")
-		expected = "SEMICOLON"
+		actual = get_words("The lord is good")
+		expected = "THE LORD IS GOOD"
 		self.assertEqual(actual,expected)
 	
 	def test_that_get_words_only_takes_in_string(self):
