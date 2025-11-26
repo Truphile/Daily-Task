@@ -16,4 +16,4 @@ def split_words(words):
     new_word.append(single_word)
     return new_word
 
-print(split_words(words))
+print(split_words (words))
